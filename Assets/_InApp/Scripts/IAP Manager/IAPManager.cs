@@ -13,9 +13,9 @@ public class IAPKey
     public const string PACK4 = "add10";
     
     public const string PACK1_RE = "sub1";
-    public const string PACK2_RE = "sub3";
-    public const string PACK3_RE = "sub5";
-    public const string PACK4_RE = "sub10";
+    public const string PACK2_RE = "sub2";
+    public const string PACK3_RE = "sub3";
+    public const string PACK4_RE = "sub4";
 }
 
 public class IAPManager : PersistentSingleton<IAPManager>, IStoreListener
