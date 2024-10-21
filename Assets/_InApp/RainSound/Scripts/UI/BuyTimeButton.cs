@@ -16,7 +16,11 @@ public class BuyTimeButton : MonoBehaviour
     public int Index
     {
         get => _index;
-        set => _index = value;
+        set
+        {
+            _index = value;
+            SetDataWithIndex();
+        }
     }
 
     private int _timer;

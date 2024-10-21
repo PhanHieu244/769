@@ -47,7 +47,7 @@ public class IAPManager : PersistentSingleton<IAPManager>, IStoreListener
         }
 
         var builder = ConfigurationBuilder.Instance(StandardPurchasingModule.Instance());
-
+        
         builder.AddProduct(IAPKey.PACK1, ProductType.Consumable);
         builder.AddProduct(IAPKey.PACK2, ProductType.Consumable);
         builder.AddProduct(IAPKey.PACK3, ProductType.Consumable);
